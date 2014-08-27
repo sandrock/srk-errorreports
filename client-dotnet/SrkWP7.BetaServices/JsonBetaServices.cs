@@ -269,36 +269,6 @@ namespace Srk.BetaServices {
 
         public event AsyncResponseHandler ReportCrashEnded;
 
-        public void ReportUsageAsync(string username, DateTime day, Dictionary<string, uint> data) {
-            throw new NotImplementedException();
-        }
-
-        public event AsyncResponseHandler ReportUsageEnded;
-
-        public void ContactAsync(string username, string email, string message) {
-            throw new NotImplementedException();
-        }
-
-        public event AsyncResponseHandler ContactEnded;
-
-        public void ReportVariousAsync(string message) {
-            throw new NotImplementedException();
-        }
-
-        public event AsyncResponseHandler ReportVariousEnded;
-
-        public void ReportShowAsync(string showUrl, string category, string username) {
-            throw new NotImplementedException();
-        }
-
-        public event AsyncResponseHandler ReportShowEnded;
-
-        public void GetShowsByCategoryAsync(string category) {
-            throw new NotImplementedException();
-        }
-
-        public event AsyncResponseHandler<string[]> GetShowsByCategoryEnded;
-
         #endregion
 
         #region IDisposable Members

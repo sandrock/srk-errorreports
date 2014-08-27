@@ -1,6 +1,7 @@
 ﻿
-using System.IO;
-namespace Srk.BetaServices {
+namespace Srk.BetaServices
+{
+    using System.IO;
 
     /// <summary>
     /// Internal delegate for service response handling.

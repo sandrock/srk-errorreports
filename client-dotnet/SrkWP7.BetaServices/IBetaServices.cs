@@ -23,26 +23,5 @@ namespace Srk.BetaServices {
         void ReportCrashAsync(ErrorReport report);
 
         event AsyncResponseHandler ReportCrashEnded;
-
-        void ReportUsageAsync(string username, DateTime day, Dictionary<string, uint> data);
-
-        event AsyncResponseHandler ReportUsageEnded;
-
-        void ContactAsync(string username, string email, string message);
-
-        event AsyncResponseHandler ContactEnded;
-
-        void ReportVariousAsync(string message);
-
-        event AsyncResponseHandler ReportVariousEnded;
-
-        void ReportShowAsync(string showUrl, string category, string username);
-
-        event AsyncResponseHandler ReportShowEnded;
-
-        void GetShowsByCategoryAsync(string category);
-
-        event AsyncResponseHandler<string[]> GetShowsByCategoryEnded;
-
     }
 }
