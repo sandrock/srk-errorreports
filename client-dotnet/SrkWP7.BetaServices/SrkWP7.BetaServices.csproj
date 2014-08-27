@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E685644-32F4-41AD-BA64-52A9612879D6}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Srk.BetaServices</RootNamespace>
+    <AssemblyName>SrkWP7.BetaServices</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Bin\Debug\SrkWP7.BetaServices.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Bin\Release\SrkWP7.BetaServices.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Servicemodel.Web" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Srk.BetaServices\Announcement.cs">
+      <Link>Announcement.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\AnnouncementSections.cs">
+      <Link>AnnouncementSections.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\AsyncResponseArgs.cs">
+      <Link>AsyncResponseArgs.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\AsyncResponseHandler.cs">
+      <Link>AsyncResponseHandler.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\BetaServicesClientFactory.cs">
+      <Link>BetaServicesClientFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\BetaServicesException.cs">
+      <Link>BetaServicesException.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\DictionaryExtensions.cs">
+      <Link>DictionaryExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\ErrorReport.cs">
+      <Link>ErrorReport.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\Helpers.cs">
+      <Link>Helpers.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\HttpRequestWrapper.Common.cs">
+      <Link>HttpRequestWrapper.Common.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\HttpUtility.cs">
+      <Link>HttpUtility.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\JsonBetaServices.Common.cs">
+      <Link>JsonBetaServices.Common.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\ServiceError.cs">
+      <Link>ServiceError.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\ServiceResult.cs">
+      <Link>ServiceResult.cs</Link>
+    </Compile>
+    <Compile Include="..\Srk.BetaServices\Version.cs">
+      <Link>Version.cs</Link>
+    </Compile>
+    <Compile Include="AsyncCallback.cs" />
+    <Compile Include="HttpRequestWrapper.cs" />
+    <Compile Include="IBetaServices.cs" />
+    <Compile Include="IHttpRequestWrapper.cs" />
+    <Compile Include="JsonBetaServices.cs" />
+    <Compile Include="PerUserReport.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsageReport.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="COPYRIGHT">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions />
+</Project>

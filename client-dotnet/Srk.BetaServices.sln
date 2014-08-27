@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Srk.BetaServices", "Srk.BetaServices\Srk.BetaServices.csproj", "{9AC5C88F-1121-40AA-8084-09955BFE85B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SrkWP7.BetaServices", "SrkWP7.BetaServices\SrkWP7.BetaServices.csproj", "{9E685644-32F4-41AD-BA64-52A9612879D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AC5C88F-1121-40AA-8084-09955BFE85B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC5C88F-1121-40AA-8084-09955BFE85B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC5C88F-1121-40AA-8084-09955BFE85B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC5C88F-1121-40AA-8084-09955BFE85B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E685644-32F4-41AD-BA64-52A9612879D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E685644-32F4-41AD-BA64-52A9612879D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E685644-32F4-41AD-BA64-52A9612879D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E685644-32F4-41AD-BA64-52A9612879D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
