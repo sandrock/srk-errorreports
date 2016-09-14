@@ -5,35 +5,38 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9AC5C88F-1121-40AA-8084-09955BFE85B4}</ProjectGuid>
+    <ProjectGuid>{AAFE761F-14C1-46DD-8C12-2BE4F79108DF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Srk.BetaServices</RootNamespace>
     <AssemblyName>Srk.BetaServices</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <BaseIntermediateOutputPath>obj\net35\</BaseIntermediateOutputPath>
+    <BaseIntermediateOutputPath>obj\net45\</BaseIntermediateOutputPath>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\NET35\Debug\</OutputPath>
+    <OutputPath>bin\NET45\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
-    <DocumentationFile>bin\NET35\Debug\Srk.BetaServices.xml</DocumentationFile>
+    <DocumentationFile>bin\NET45\Debug\Srk.BetaServices.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\NET35\Release\</OutputPath>
+    <OutputPath>bin\NET45\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\NET35\Release\Srk.BetaServices.xml</DocumentationFile>
+    <DocumentationFile>bin\NET45\Release\Srk.BetaServices.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -76,7 +79,7 @@
     <Compile Include="IHttpRequestWrapper.cs" />
     <Compile Include="JsonBetaServices.Common.cs" />
     <Compile Include="JsonBetaServices.cs" />
-    <Compile Include="Properties\NET35.AssemblyInfo.cs" />
+    <Compile Include="Properties\NET45.AssemblyInfo.cs" />
     <Compile Include="ServiceError.cs" />
     <Compile Include="ServiceResult.cs" />
     <Compile Include="Version.cs" />

@@ -1,24 +1,57 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Srk.BetaServices", "Srk.BetaServices\Srk.BetaServices.csproj", "{9AC5C88F-1121-40AA-8084-09955BFE85B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SrkWP7.BetaServices", "SrkWP7.BetaServices\SrkWP7.BetaServices.csproj", "{9E685644-32F4-41AD-BA64-52A9612879D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SrkWP8.BetaServices", "SrkWP7.BetaServices\SrkWP8.BetaServices.csproj", "{9E685644-32F4-41AD-BA64-52A9612879D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C262916-FD0A-4FC4-ACC8-319472C31037}"
+	ProjectSection(SolutionItems) = preProject
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET45.Srk.BetaServices", "Srk.BetaServices\NET45.Srk.BetaServices.csproj", "{AAFE761F-14C1-46DD-8C12-2BE4F79108DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9AC5C88F-1121-40AA-8084-09955BFE85B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9AC5C88F-1121-40AA-8084-09955BFE85B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC5C88F-1121-40AA-8084-09955BFE85B4}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{9AC5C88F-1121-40AA-8084-09955BFE85B4}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{9AC5C88F-1121-40AA-8084-09955BFE85B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AC5C88F-1121-40AA-8084-09955BFE85B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC5C88F-1121-40AA-8084-09955BFE85B4}.Release|ARM.ActiveCfg = Release|Any CPU
+		{9AC5C88F-1121-40AA-8084-09955BFE85B4}.Release|x86.ActiveCfg = Release|Any CPU
 		{9E685644-32F4-41AD-BA64-52A9612879D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E685644-32F4-41AD-BA64-52A9612879D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E685644-32F4-41AD-BA64-52A9612879D6}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9E685644-32F4-41AD-BA64-52A9612879D6}.Debug|ARM.Build.0 = Debug|ARM
+		{9E685644-32F4-41AD-BA64-52A9612879D6}.Debug|x86.ActiveCfg = Debug|x86
+		{9E685644-32F4-41AD-BA64-52A9612879D6}.Debug|x86.Build.0 = Debug|x86
 		{9E685644-32F4-41AD-BA64-52A9612879D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E685644-32F4-41AD-BA64-52A9612879D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E685644-32F4-41AD-BA64-52A9612879D6}.Release|ARM.ActiveCfg = Release|ARM
+		{9E685644-32F4-41AD-BA64-52A9612879D6}.Release|ARM.Build.0 = Release|ARM
+		{9E685644-32F4-41AD-BA64-52A9612879D6}.Release|x86.ActiveCfg = Release|x86
+		{9E685644-32F4-41AD-BA64-52A9612879D6}.Release|x86.Build.0 = Release|x86
+		{AAFE761F-14C1-46DD-8C12-2BE4F79108DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFE761F-14C1-46DD-8C12-2BE4F79108DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFE761F-14C1-46DD-8C12-2BE4F79108DF}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{AAFE761F-14C1-46DD-8C12-2BE4F79108DF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AAFE761F-14C1-46DD-8C12-2BE4F79108DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFE761F-14C1-46DD-8C12-2BE4F79108DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAFE761F-14C1-46DD-8C12-2BE4F79108DF}.Release|ARM.ActiveCfg = Release|Any CPU
+		{AAFE761F-14C1-46DD-8C12-2BE4F79108DF}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
