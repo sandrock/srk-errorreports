@@ -67,7 +67,6 @@
     <Compile Include="ErrorReport.cs" />
     <Compile Include="Fx.cs" />
     <Compile Include="GlobalSuppressions.cs" />
-    <Compile Include="Helpers.cs" />
     <Compile Include="HttpErrorReport.cs" />
     <Compile Include="HttpRequestWrapper.Common.cs" />
     <Compile Include="HttpRequestWrapper.cs" />

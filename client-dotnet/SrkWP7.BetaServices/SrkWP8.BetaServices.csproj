@@ -98,9 +98,6 @@
     <Compile Include="..\Srk.BetaServices\Announcement.cs">
       <Link>Announcement.cs</Link>
     </Compile>
-    <Compile Include="..\Srk.BetaServices\AnnouncementSections.cs">
-      <Link>AnnouncementSections.cs</Link>
-    </Compile>
     <Compile Include="..\Srk.BetaServices\AsyncResponseArgs.cs">
       <Link>AsyncResponseArgs.cs</Link>
     </Compile>
@@ -118,9 +115,6 @@
     </Compile>
     <Compile Include="..\Srk.BetaServices\ErrorReport.cs">
       <Link>ErrorReport.cs</Link>
-    </Compile>
-    <Compile Include="..\Srk.BetaServices\Helpers.cs">
-      <Link>Helpers.cs</Link>
     </Compile>
     <Compile Include="..\Srk.BetaServices\HttpRequestWrapper.Common.cs">
       <Link>HttpRequestWrapper.Common.cs</Link>
@@ -146,11 +140,6 @@
     <Compile Include="IHttpRequestWrapper.cs" />
     <Compile Include="JsonBetaServices.cs" />
     <Compile Include="Properties\WP80.AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="COPYRIGHT">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

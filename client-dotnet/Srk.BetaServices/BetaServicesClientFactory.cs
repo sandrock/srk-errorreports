@@ -12,16 +12,16 @@ namespace Srk.BetaServices
     /// </summary>
     public class BetaServicesClientFactory
     {
+        private string ApiKey;
+        private string ApiUserAgent;
+        private string BaseUrl;
+        private string UrlFormat;
+
         /// <summary>
         /// This is the main factory instance.
         /// It's recommended to fill this property on application startup.
         /// </summary>
         public static BetaServicesClientFactory Default { get; set; }
-
-        private string ApiKey;
-        private string ApiUserAgent;
-        private string BaseUrl;
-        private string UrlFormat;
 
         /// <summary>
         /// Class .ctor to create a factory.

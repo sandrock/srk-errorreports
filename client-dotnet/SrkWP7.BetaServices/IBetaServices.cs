@@ -1,9 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
+namespace Srk.BetaServices
+{
+    using System;
+    using System.Collections.Generic;
 
-namespace Srk.BetaServices {
-    public interface IBetaServices : IDisposable {
-
+    /// <summary>
+    /// BetaServices service interface.
+    /// </summary>
+    public interface IBetaServices : IDisposable
+    {
         string Language { get; set; }
 
         void GetAnnouncementSectionsAsync();
